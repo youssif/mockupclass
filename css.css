@@ -1,21 +1,101 @@
+body{
+
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
 .header{
 	background-color:aliceblue;
+	padding: .75em 1em 0.5em 1em;
+
 }
+	.header:after{
+		content:"";
+		height: 0;
+		display: block;
+		visibility: hidden;
+		clear: both;
+	}
+
+	.logo{
+		float: left;
+	}
+	nav{
+		float:right;
+	}
 
 .banner{
 	background-color:blanchedalmond;
+	padding: 120px 50px;
+}
+	.tagline{
+		font-size: 100px;
+	}
+	.address{
+		font-size: 30px;
+	}
+
+.about{
+	padding: 20px;
+	background-color: aliceblue;
 }
 
-.first {
-	background-color:aliceblue;
+	.about:after{
+		content:"";
+		height: 0;
+		display: block;
+		visibility: hidden;
+		clear: both;
+	}
+
+	.introtext{
+		float: left;
+		width: 40%;
+		background: aliceblue;
+		padding: 0 20px 0 20px;
+	}
+
+.hoursdirections {
+	clear:both;
+
 }
 
-.second {
-	background-color:blanchedalmond;
+	.map{
+		width: 200px;
+		height: 200px;
+		float:right;
+	}
+	.address{
+		float: left;
+	}
+	.hours{
+		float: left;
+		clear: left;
+	}
 
+	.hoursdirections:after{
+		content: "";
+		height: 0;
+		display: block;
+		visibility: hidden;
+		clear:both;
+	}
+
+.footer{
+	clear: both;
+	padding:20px;
 }
+	.footer nav{
+		float: left;
+	}
 
-.third {
-	background-color:aliceblue;
+	nav{
+		float:right;
+	}
 
-}
